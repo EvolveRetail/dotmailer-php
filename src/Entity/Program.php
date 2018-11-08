@@ -9,22 +9,22 @@ final class Program implements Arrayable
     /**
      * @var int|null
      */
-    private $id;
+    protected $id;
 
     /**
      * @var string
      */
-    private $name;
+    protected $name;
 
     /**
      * @var string
      */
-    private $status;
+    protected $status;
 
     /**
      * @var \DateTimeInterface
      */
-    private $dateCreated;
+    protected $dateCreated;
 
     /**
      * @param int|null $id

@@ -10,22 +10,22 @@ final class AddressBook implements Arrayable
     /**
      * @var int|null
      */
-    private $id;
+    protected $id;
 
     /**
      * @var string
      */
-    private $name;
+    protected $name;
 
     /**
      * @var string
      */
-    private $visibility;
+    protected $visibility;
 
     /**
      * @var int
      */
-    private $contacts;
+    protected $contacts;
 
     /**
      * @param int|null $id

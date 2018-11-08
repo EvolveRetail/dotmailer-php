@@ -15,27 +15,27 @@ final class Contact implements Arrayable
     /**
      * @var int|null
      */
-    private $id;
+    protected $id;
 
     /**
      * @var string
      */
-    private $email;
+    protected $email;
 
     /**
      * @var string
      */
-    private $optInType;
+    protected $optInType;
 
     /**
      * @var string
      */
-    private $emailType;
+    protected $emailType;
 
     /**
      * @var array
      */
-    private $dataFields;
+    protected $dataFields;
 
     /**
      * @param int|null $id

@@ -10,52 +10,52 @@ abstract class Campaign implements Arrayable
     /**
      * @var int|null
      */
-    private $id;
+    protected $id;
 
     /**
      * @var string
      */
-    private $name;
+    protected $name;
 
     /**
      * @var string
      */
-    private $subject;
+    protected $subject;
 
     /**
      * @var string
      */
-    private $fromName;
+    protected $fromName;
 
     /**
      * @var string|null
      */
-    private $htmlContent;
+    protected $htmlContent;
 
     /**
      * @var string|null
      */
-    private $plainTextContent;
+    protected $plainTextContent;
 
     /**
      * @var Address|null
      */
-    private $fromAddress;
+    protected $fromAddress;
 
     /**
      * @var string
      */
-    private $replyAction;
+    protected $replyAction;
 
     /**
      * @var string
      */
-    private $replyToAddress;
+    protected $replyToAddress;
 
     /**
      * @var string
      */
-    private $status;
+    protected $status;
 
     /**
      * @param int|null $id

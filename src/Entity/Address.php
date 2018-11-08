@@ -7,12 +7,12 @@ final class Address implements Arrayable
     /**
      * @var int|null
      */
-    private $id;
+    protected $id;
 
     /**
      * @var string
      */
-    private $email;
+    protected $email;
 
     /**
      * @param int|null $id

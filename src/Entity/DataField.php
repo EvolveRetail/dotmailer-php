@@ -15,22 +15,22 @@ final class DataField implements Arrayable
     /**
      * @var string
      */
-    private $name;
+    protected $name;
 
     /**
      * @var string
      */
-    private $type;
+    protected $type;
 
     /**
      * @var string
      */
-    private $visibility;
+    protected $visibility;
 
     /**
      * @var mixed|null
      */
-    private $defaultValue;
+    protected $defaultValue;
 
     /**
      * @param string $name

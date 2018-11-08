@@ -12,7 +12,7 @@ class GuzzleAdapter implements Adapter
     /**
      * @var ClientInterface
      */
-    private $client;
+    protected $client;
 
     /**
      * @param ClientInterface $client

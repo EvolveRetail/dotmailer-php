@@ -19,12 +19,12 @@ class Dotmailer
     /**
      * @var Adapter
      */
-    private $adapter;
+    protected $adapter;
 
     /**
      * @var ResponseInterface|null
      */
-    private $response;
+    protected $response;
 
     /**
      * @param Adapter $adapter
